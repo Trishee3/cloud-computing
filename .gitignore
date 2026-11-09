@@ -1,0 +1,23 @@
+
+# WordPress database credentials
+wp-config.php
+
+# Debug and error logs
+debug.log
+error_log
+
+# Cache files
+wp-content/cache/
+
+# Temporary WordPress files
+wp-content/upgrade/
+wp-content/backup*/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+.env.*
+!.env.example
